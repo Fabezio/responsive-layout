@@ -1,7 +1,7 @@
 <script>
-  export let href=""
+export let href = ""
 </script>
 
 <a class="nav-link text-warning" {href} >
-  <slot />
+    <slot />
 </a>
